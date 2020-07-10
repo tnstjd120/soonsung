@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 4 Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">Hello</div>
+      <div class="col-4">World</div>
+      <div class="col-4">BootStrap</div>
+    </div>    
+  </div>
+
+  <div class="container" style="background: #999">
+    <p class="text-muted">text-muted</p>
+    <p class="text-primary text-center">text-primary</p>
+    <p class="text-success text-right">text-success</p>
+    <p class="text-info text-justify">text-info</p>
+    <p class="text-warning">text-warning</p>
+    <p class="text-danger">text-danger</p>
+    <p class="text-secondary">text-secondary</p>
+    <p class="text-dark">text-dark</p>
+    <p class="text-body">text-body</p>
+    <p class="text-light">text-light</p>
+    <p class="text-white">text-white</p>
+  </div>  
+
+  <div class="container">
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+
+  </div>
+
+<div class="container">
+  <p class="text-black-50">Black text with 50% opacity on white background</p>
+  <p class="text-white-50 bg-info">White text with 50% opacity on black background</p>
+</div>
+
+<div class="container">
+  <table class="table table-borderless table-striped table-hover table-responsive-sm">
+    <thead>
+      <tr class="table-success">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr>
+        <td>duly</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <img src="bg3.jpg" class="img-thumbnail float-left" alt="bg-example" width="250">
+  <img src="bg3.jpg" class="img-thumbnail float-right" alt="bg-example" width="250">
+  <img src="bg3.jpg" class="rounded-circle mx-auto d-block" alt="bg-example" width="250">
+  <img src="bg3.jpg" class="img-fluid" alt="bg-example" style="max-width: 100%; height: auto;">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Bootstrap Tutorial</h1>      
+      <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    </div>
+    <p>This is some text.</p>      
+    <p>This is another text.</p>      
+  </div>
+
+  <div class="container">
+    <h2>Alerts</h2>
+    <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+    <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+    
+    <div class="alert alert-success alert-dismissible">
+      <button class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> This alert box could indicate a successful or positive action.
+      <a href="#none" class="alert-link">alert-link</a>
+    </div>
+    <div class="alert alert-info">
+      <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+      <a href="#none" class="alert-link">alert-link</a>
+    </div>
+    <div class="alert alert-warning">
+      <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+      <a href="#none" class="alert-link">alert-link</a>
+    </div>
+    <div class="alert alert-danger alert-dismissible">
+      <button class="close" data-dismiss="alert">&times;</button>
+      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+    <div class="alert alert-primary">
+      <strong>Primary!</strong> Indicates an important action.
+    </div>
+    <div class="alert alert-secondary">
+      <strong>Secondary!</strong> Indicates a slightly less important action.
+    </div>
+    <div class="alert alert-dark">
+      <strong>Dark!</strong> Dark grey alert.
+    </div>
+    <div class="alert alert-light">
+      <strong>Light!</strong> Light grey alert.
+    </div>
+  </div>
+
+  <div class="container">
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary btn-sm">Primary</button>
+    <button type="button" class="btn btn-secondary btn-md">Secondary</button>
+    <button type="button" class="btn btn-success btn-lg">Success</button>
+    <button type="button" class="btn btn-info btn-block active">Info</button>
+    <button type="button" class="btn btn-warning col-10">Warning</button>
+    <button type="button" class="btn btn-danger btn-block active">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link ">Link</button>
+    <button type="button" class="btn btn-outline-primary">outline1</button>  
+    <button type="button" class="btn btn-outline-secondary">outline2</button>  
+    <button type="button" class="btn btn-outline-success">outline3</button>  
+
+    <br><br><br>
+    <a href="#none" class="btn btn-success">click</a>
+  </div>
+
+  <div class="container">
+    <div class="btn-group-sm mb-5">
+      <button class="btn btn-primary">soonsung</button>
+      <button class="btn btn-success">soonduck</button>
+      <button class="btn btn-danger">doonduck</button>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="btn-group mb-5">
+      <button class="btn btn-primary">soonsung</button>
+      <button class="btn btn-success">soonduck</button>
+      <button class="btn btn-danger">doonduck</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="btn-group-lg mb-5">
+      <button class="btn btn-primary">soonsung</button>
+      <button class="btn btn-success">soonduck</button>
+      <button class="btn btn-danger">doonduck</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="btn-group-vertical mb-5">
+      <button class="btn btn-primary">soonsung</button>
+      <button class="btn btn-success">soonduck</button>
+      <button class="btn btn-danger">doonduck</button>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="btn-group">
+      <button class="btn btn-success">soonsung</button>
+      <button class="btn btn-danger">soonduck</button>
+      <!-- singleBtn end -->
+      
+      <!-- dropdownMenu start -->
+      <div class="btn-group">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">doonduck</button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">doon</a>
+          <a href="#" class="dropdown-item">duck</a>
+        </div>
+      </div><!-- dropdownMenu end -->
+    
+      <!-- dropdownSplit start -->
+      <div class="btn-group">
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">info 01</a>
+          <a href="#" class="dropdown-item">info 02</a>
+        </div>
+      </div><!-- dropdownSplit end -->
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col">
+        <div class="btn-group-vertical btn-group-lg">
+          <button class="btn btn-primary">samsung</button>
+          <button class="btn btn-success">sony</button>
+
+          <!-- dropdown start -->
+            <div class="btn-group">
+              <button class="btn btn-danger">apple</button>
+              <button class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+
+              <!-- dropdownMenu -->
+              <div class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item">pc</a>
+                <a href="#" class="dropdown-item active">tablet</a>
+                <a href="#" class="dropdown-item disabled">phone</a>
+
+                <h4 class="dropdown-header text-danger">group - 01</h4>
+                  <a href="#" class="dropdown-item">group 01 - 01</a>
+                  <a href="#" class="dropdown-item">group 01 - 02</a>
+                  <a href="#" class="dropdown-item">group 01 - 03</a>
+
+                <div class="dropdown-divider"></div>
+                
+                <a href="" class="dropdown-item">Another link</a>
+
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- container end -->
+
+  <h1>Example heading <span class="badge badge-primary">New</span></h1>
+  <h2>Example heading <span class="badge badge-success">New</span></h2>
+  <h3>Example heading <span class="badge badge-warning">New</span></h3>
+  <h4>Example heading <span class="badge badge-danger">New</span></h4>
+  <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+  <h6>Example heading <span class="badge badge-info">New</span></h6>
+
+  <span class="badge badge-primary">badge</span>  
+  <span class="badge badge-success badge-pill">badge</span>
+  <span class="badge badge-danger">badge</span>
+
+  <br>
+
+  <div class="btn-group my-5">
+    <button class="btn btn-primary">
+      Message <span class="badge badge-light">5</span>
+    </button>
+    <button class="btn btn-danger">
+      Message <span class="badge badge-light badge-pill">4</span>
+    </button>
+  </div>
+  
+  <!-- progress start -->
+  <div class="container mb-5">
+
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">progress <span class="badge badge-warning">bar</span> </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-10 m-auto">
+        <div class="progress mb-2">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-success progress-bar-striped" style="width: 50%;">50%</div>
+        </div>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
+        </div>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-warning" style="width: 25%">warning</div>
+          <div class="progress-bar bg-success" style="width: 25%">guide</div>
+          <div class="progress-bar bg-primary" style="width: 25%">good</div>
+          <div class="progress-bar bg-danger" style="width: 25%">danger</div>
+        </div>
+      </div>
+    </div>
+  </div><!-- container end -->
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
